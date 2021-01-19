@@ -1,0 +1,59 @@
+﻿@page "/about"
+
+<div class="workblock">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <h3>О компании</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <p>
+                Наша компания существует с 1994г.
+            </p>
+            <p>
+
+                <b>Адрес компании:</b> 220010, г. Минск, ул. Советская, 9 <br>
+                <b>Режим работы</b>: Понедельник — Пятница: 9.00 — 13.00; 14.00 — 18.00<br>
+                <b>Горячая линия:</b> +375 (17) 222-43-12 <br>
+                <b>Приемная:</b> +375 (17) 327-47-36<br>
+                <b>E-mail:</b> universitybd@minedu.unibel.by<br>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <h4>Свяжитесь с нами</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-6">
+            <form>
+                <div class="form-group row">
+                    <label for="email" class="col-sm-3 col-form-label">Email</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="email" required />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="content" class="col-sm-3 col-form-label">Текст сообщения</label>
+                    <div class="col-sm-9">
+                        <textarea type="textarea" class="form-control" id="content" placeholder="Напишите текст сообщения" required></textarea>
+                    </div>
+                </div>            
+
+                <button class="btn btn-primary" type="submit">Отправить</button>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+@code {
+
+}

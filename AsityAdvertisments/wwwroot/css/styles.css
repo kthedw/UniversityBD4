@@ -1,0 +1,45 @@
+﻿body {
+    background-color: #f2f2f2;
+    
+    font-family: sans-serif;
+}
+
+
+
+.menu_element {
+    text-transform: uppercase;
+    margin-left: 45px;
+    display: inline-block;
+    font-family: sans-serif;
+    color: #727272;
+    margin-top: 20px;
+}
+
+.menu_elements {
+    margin-left: 55px;    
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+h1, h2, h3, h4 {
+    font-family: sans-serif;
+    color: #727272;
+}
+
+.header {
+    margin-left: 100px;
+    margin-top: -80px
+}
+
+.subheader {
+    margin-left: 100px;
+    margin-top: -7px;
+}
+
+.workblock {
+    margin-left: 118px;
+    margin-top: -75px;
+}
