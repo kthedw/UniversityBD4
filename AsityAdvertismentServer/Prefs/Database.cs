@@ -11,7 +11,7 @@ namespace AsityAdvertismentServer.Prefs
 
         public Database()
         {
-            connectionString = @"Data Source=localhost\NODE3;Initial Catalog=AdvertismentTest;Persist Security Info=True;User ID=HOME17\Stas;Password=88888888";
+            connectionString = @"Data Source=localhost\NODE3;Initial Catalog=AdvertismentTest;Persist Security Info=False;User ID=HOME17\Stas;Password=88888888";
         }
     }
 }
