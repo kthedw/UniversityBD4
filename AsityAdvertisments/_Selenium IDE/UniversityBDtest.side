@@ -1,0 +1,155 @@
+{
+  "id": "6c44a74f-2ec3-4320-98ab-dd8c764d433b",
+  "version": "2.0",
+  "name": "UniversityBDtest",
+  "url": "http://localhost:51818",
+  "tests": [{
+    "id": "8bf5a79d-2c5f-44b3-80a2-3d1720d4ba65",
+    "name": "UNIBDtest",
+    "commands": [{
+      "id": "f8c4e4a6-2509-446c-b9f6-bf7ee3203cc2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af18cd77-6d4d-46fd-b048-93fc07cff529",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75f6218a-52a4-4012-bde0-60d6332f718b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) > a",
+      "targets": [
+        ["css=.nav-item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Добавить ВУЗ')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/addadv')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c876174-5a45-4bc4-97fa-d98c6cdbd0d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=fnlnmn",
+      "targets": [
+        ["id=fnlnmn", "id"],
+        ["css=#fnlnmn", "css:finder"],
+        ["xpath=//input[@id='fnlnmn']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55ee9c2e-a3d1-4452-9129-3e2cda2bddf6",
+      "comment": "",
+      "command": "type",
+      "target": "id=fnlnmn",
+      "targets": [
+        ["id=fnlnmn", "id"],
+        ["css=#fnlnmn", "css:finder"],
+        ["xpath=//input[@id='fnlnmn']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "ГрГУ"
+    }, {
+      "id": "d897acd1-1c10-45cc-a243-73f0bb05d64d",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "185e8780-077f-4857-8e94-1c6e30852b4e",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "+375294456784"
+    }, {
+      "id": "71e597ce-58de-485e-aabf-057b56622bf9",
+      "comment": "",
+      "command": "click",
+      "target": "id=price-usd",
+      "targets": [
+        ["id=price-usd", "id"],
+        ["css=#price-usd", "css:finder"],
+        ["xpath=//input[@id='price-usd']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c81e1ed-62ff-42c5-bff2-6ef22b76ef4f",
+      "comment": "",
+      "command": "type",
+      "target": "id=price-usd",
+      "targets": [
+        ["id=price-usd", "id"],
+        ["css=#price-usd", "css:finder"],
+        ["xpath=//input[@id='price-usd']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "275"
+    }, {
+      "id": "1d7956cf-10cf-420b-8b22-679e97ea0f2d",
+      "comment": "",
+      "command": "click",
+      "target": "id=price-byn",
+      "targets": [
+        ["id=price-byn", "id"],
+        ["css=#price-byn", "css:finder"],
+        ["xpath=//input[@id='price-byn']", "xpath:attributes"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "288b61b8-aefe-4be0-a9b8-22369990ffde",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1374995c-dc2d-4aca-8bea-aab311ed0341",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(2) > a",
+      "targets": [
+        ["css=.nav-item:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ВУЗы')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/advlist')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f7b43569-fb0b-4c63-a3f4-09611fa7afc0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8bf5a79d-2c5f-44b3-80a2-3d1720d4ba65"]
+  }],
+  "urls": ["http://localhost:51818/"],
+  "plugins": []
+}

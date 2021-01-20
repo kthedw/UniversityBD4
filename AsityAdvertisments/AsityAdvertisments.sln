@@ -7,13 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsityAdvertisments", "Asity
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsityAdvertismentServer", "..\AsityAdvertismentServer\AsityAdvertismentServer.csproj", "{5D3E5E86-4DF0-4EAA-AE0A-BF16D840107A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Selenium IDE", "Selenium IDE", "{2E12FDA4-6501-4B36-917E-FC39C662BB24}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Users\Stas\Desktop\UniversityBD\Selenium IDE\Test.cs = ..\..\..\Users\Stas\Desktop\UniversityBD\Selenium IDE\Test.cs
-		..\..\..\Users\Stas\Desktop\UniversityBD\Selenium IDE\UniversityBDtest_files\UniversityBDtest.html = ..\..\..\Users\Stas\Desktop\UniversityBD\Selenium IDE\UniversityBDtest_files\UniversityBDtest.html
-		..\..\..\Users\Stas\Desktop\UniversityBD\Selenium IDE\UniversityBDtest.side = ..\..\..\Users\Stas\Desktop\UniversityBD\Selenium IDE\UniversityBDtest.side
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
