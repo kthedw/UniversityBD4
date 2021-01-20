@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30114.128
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsityAdvertisments", "AsityAdvertisments.csproj", "{3DADE0ED-3356-46DD-B3F9-C57432A7A217}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsityAdvertismentServer", "..\AsityAdvertismentServer\AsityAdvertismentServer.csproj", "{5D3E5E86-4DF0-4EAA-AE0A-BF16D840107A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsityAdvertismentServer", "..\AsityAdvertismentServer\AsityAdvertismentServer.csproj", "{5D3E5E86-4DF0-4EAA-AE0A-BF16D840107A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
