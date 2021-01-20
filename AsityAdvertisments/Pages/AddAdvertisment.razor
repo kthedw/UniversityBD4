@@ -94,10 +94,14 @@
 
     protected async Task submitForm()
     {
-       
+        string[] words = fnlnp.Split(' ');
+
+        adv.name = words[0];
+        
 
         await Http.PostAsJsonAsync<Advertisment>("http://localhost:10000/api/Advertisments/addAdvertisment", adv);
         NavManager.NavigateTo("/advlist");
     }
+
 
 }
